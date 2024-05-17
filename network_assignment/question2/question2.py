@@ -28,7 +28,7 @@ def check_subdomains(subdomains):
         time.sleep(60)  # Wait for 60 seconds before checking again
 
 if __name__ == "__main__":
-    filename = "subdomains.txt"  # Change this to your file name
+    filename = "subdomain.txt"  # Change this to your file name
     subdomains = read_subdomains_from_file(filename)
     check_subdomains(subdomains)
 
